@@ -1,25 +1,20 @@
+/*Universal*/
 html {
   font-size: 18px;
-  background-color: white;
 }
 
 body {
- font-family: Helvetica, sans-serif;
- line-height: 1.4em;
-}
-
-/*Universal*/
-.container {
-  max-width: 960px;
-  margin: 0 auto;
-}
-
-img {
-  border-style: none;
+  font-family: "Helvetica", sans-serif;
+  line-height: 1.4;
 }
 
 h1, h4 {
   font-weight: bold;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 /*Header*/
@@ -31,12 +26,12 @@ h1, h4 {
 .company .container {
   display: flex;
   align-items: center;
-  padding: 12px 0px 12px 0.5em;
+  padding: .66rem 0 .66rem 0.5rem;
 }
 
-.company .img {
+.company img {
   height: 1.5em;
-  padding-right: 15px;
+  padding-right: 1rem;
 }
 
 /*Main Banner*/
@@ -45,14 +40,23 @@ h1, h4 {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 
 .headline {
-  background-color: black;
-  color: white;
-  width: 20em;
-  padding: 2em 3em;
-  position: relaitve;
-  top: 9em;
+ position: relative;
+ top: 9rem;
+ width: 20rem;
+ padding: 2rem 3rem;
+ background-color: black;
+ color: white;
 }
+
+.headline h1 {
+  font-size: 2rem;
+  line-hgieht: 1.2rem;
+  margin: .25rem 0;
+}
+
+
 /*Nav*/
